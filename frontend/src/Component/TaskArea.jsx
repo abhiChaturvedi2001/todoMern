@@ -30,7 +30,7 @@ const TaskArea = () => {
   };
   return (
     <>
-      <div className="grid grid-cols-3 w-[80%] mx-auto items-center gap-y-5 mt-[50px] ">
+      <div className="grid grid-cols-3 w-[80%] mx-auto max-sm:grid-cols-1 items-center gap-y-5 mt-[50px] ">
         {todoData.length === 0 ? (
           <h1>Opps todos empty 👋🏻 </h1>
         ) : (
